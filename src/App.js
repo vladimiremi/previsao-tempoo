@@ -9,14 +9,15 @@ function App() {
     
         <header className="App-header">
             <h1>Previsão do Tempo</h1>
-            <input type="text" name="" id="" placeholder="Insira o nome da cidade aqui"/>
+            <input type="text" name="" id="" placeholder="   Insira o nome da cidade aqui"/>
         </header>
 
         <section>
           <div className="capitais">
-            <h2>Capitais</h2>
+        
             <div className="cidades">
               <div className="dados">
+                <h2>Capitais</h2>
                 <p>Min Max</p>
                 <ul>
                   <li>18º 27º Rio de Janeiro</li>
@@ -26,6 +27,7 @@ function App() {
                 </ul>
               </div>
               <div className="dados">
+              <h2 className="some">Capitais</h2>
               <p>Min Max</p>
                 <ul>
                   <li>18º 27º Rio de Janeiro</li>

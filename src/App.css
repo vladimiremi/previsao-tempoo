@@ -19,9 +19,11 @@
 
 input {
   position: relative;
-  height: 2rem;
-  width: 25rem;
+  height: 2.5rem;
+  width: 27rem;
   font-size: 1.4rem;
+  margin-bottom: 40px;
+  text-decoration-color: blue;
 }
 
 ul {
@@ -54,14 +56,20 @@ h2 {
   
 }
 
-h2::before {
+.some {
+  position: relative;
+  font-size: 1.80rem;
+  color: rgba(245, 245, 220, 0);
+  
+}
+
+.capitais::before {
   content: "";
-  border-top-color: white;
+  border-top-color: rgba(255, 255, 255, 0.548);
   border-top-style: solid;
-  width: 500px;
+  width: 550px;
   height: 0.1px;
-  background: rgb(235, 235, 235);
-  display: block;
+  align-items: center;
   margin: 0 auto;
   
   
@@ -74,7 +82,7 @@ h2::before {
 }
 
 .dados {
-  text-align: left;
+  text-align: justify;
   padding: 0;
  
  

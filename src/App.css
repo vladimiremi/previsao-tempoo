@@ -6,7 +6,7 @@
   
 }
 
-.App-header {
+header {
 
 }
 
@@ -23,7 +23,7 @@ input {
   width: 27rem;
   font-size: 1.4rem;
   margin-bottom: 40px;
-  text-decoration-color: blue;
+  
 }
 
 ul {
@@ -51,7 +51,7 @@ h1 {
 }
 
 h2 {
-  position: relative;
+  text-align: start;
   font-size: 1.80rem;
   
 }
@@ -63,10 +63,11 @@ h2 {
   
 }
 
-.capitais::before {
+h2::before {
   content: "";
   border-top-color: rgba(255, 255, 255, 0.548);
   border-top-style: solid;
+  background-color: blue;
   width: 550px;
   height: 0.1px;
   align-items: center;
@@ -76,7 +77,10 @@ h2 {
 }
 
 .capitais {
-  display: flex;
+  max-height: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  align-items: flex-start;
   flex-direction: column;
   
 }

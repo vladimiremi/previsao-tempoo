@@ -1,5 +1,8 @@
-import logo from './logo.svg';
+
+import React from 'react';
 import './App.css';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
 
 function App() {
   return (
@@ -7,17 +10,14 @@ function App() {
       <div className="tudo">
         
     
-        <header className="App-header">
-            <h1>Previsão do Tempo</h1>
-            <input type="text" name="" id="" placeholder="   Insira o nome da cidade aqui"/>
-        </header>
+      <Header />
 
         <section>
           <div className="capitais">
-        
+            <h2>Capitais</h2>
             <div className="cidades">
               <div className="dados">
-                <h2>Capitais</h2>
+                
                 <p>Min Max</p>
                 <ul>
                   <li>18º 27º Rio de Janeiro</li>
@@ -27,7 +27,6 @@ function App() {
                 </ul>
               </div>
               <div className="dados">
-              <h2 className="some">Capitais</h2>
               <p>Min Max</p>
                 <ul>
                   <li>18º 27º Rio de Janeiro</li>
@@ -39,7 +38,7 @@ function App() {
             </div>
           </div>
         </section>
-        <footer><br/> Com amor Mimi 😍😍</footer>
+        <Footer>Com amor Mimi 😍</Footer>
        </div>
     </div>
   );

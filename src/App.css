@@ -6,9 +6,6 @@
   
 }
 
-header {
-
-}
 
 .cidades {
   display: flex;
@@ -23,7 +20,15 @@ input {
   width: 27rem;
   font-size: 1.4rem;
   margin-bottom: 40px;
+  margin-top: 10px;
   
+}
+
+.button {
+  padding: 0.7rem;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.3s;
 }
 
 ul {
@@ -50,31 +55,29 @@ h1 {
   font-size: 3.7rem;
 }
 
+  h2.title {
+    color: rgba(0, 0, 0, 0.575);
+  }
+
 h2 {
+
   text-align: start;
   font-size: 1.80rem;
   
 }
 
-.some {
-  position: relative;
-  font-size: 1.80rem;
-  color: rgba(245, 245, 220, 0);
-  
-}
-
-h2::before {
+/* header::after {
   content: "";
   border-top-color: rgba(255, 255, 255, 0.548);
   border-top-style: solid;
-  background-color: blue;
-  width: 550px;
+  width: 500px;
   height: 0.1px;
   align-items: center;
+  display: block;
   margin: 0 auto;
   
   
-}
+} */
 
 .capitais {
   max-height: 100%;
@@ -107,3 +110,33 @@ footer {
   font-weight: bold;
 }
 
+hr {
+  width: 500px;
+  background-color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.card {
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.781);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.containerVento {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.weekdays {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}

@@ -1,0 +1,9 @@
+.close {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: calc(-100% + 1020px);
+    top: -40px;
+    position: relative;
+    justify-content: flex-end;
+}

@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Header from './pages/Header';
 import Footer from './pages/Footer';
+import CardInformation from './pages/CardInformation';
 
 function App() {
   return (
